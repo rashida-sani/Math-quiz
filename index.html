@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Math quiz</title>
+</head>
+<body onload="display()">
+   <h1>Math Quiz</h1>
+   <div class="main">
+    <div class="gameData">
+      <div class="left">
+        <p>Status: <span id="status">In progress</span></p>
+        <p>Scores: <span id="scores">0</span></p>
+        <p>Total Win: <span id="Twin">0</span></p>
+      </div>
+        <div class="right">
+        <p>Mode: <span id="mode">endeless</span></p>
+        <p>Level: <span id="level">easy</span></p>
+        <p>Total Fail: <span id="Tfail" style="color:red">0</span></p>
+    </div>
+    </div>
+   </div>
+   <hr>
+     <div class="game">
+      <h3><span id="questNo">Question : </span><quest id="questions">Hey please check your browser!!</quest></h3>
+      <input type="number" id="ans" required="required" placeholder="Input your answer">
+      <input type="submit" value="Submit" onclick="check()">
+    </div>
+    <br><br>
+    <div id="post">
+     <h2 id="position">...</h2>
+    </div>
+      <footer>
+      <p id="copy" style="color: rgb(74, 179, 88);font-family: verdana;font-size: 12.5px;"></p>
+      </footer>
+      </div>
+      <script>
+    b = new Date().getFullYear();
+        a = "Copyright © 2023-"+b+" By Abubakar ibrahim";
+        document.getElementById('copy').innerText = a
+        </script>
+</body>
+</html>

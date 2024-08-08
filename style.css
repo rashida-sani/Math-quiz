@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(to top right, black,rgb(39, 37, 37));
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    flex-direction: column;
+}
+h1{
+    color: rgb(83, 214, 247);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3.5px;
+}
+h1::first-letter{
+  font-size: 50px;
+  font-family: cursive;
+}
+.gameData p{
+  color: rgb(83, 214, 247);
+  font-family: verdana;
+  font-size: 15px;
+}
+.gameData span{
+  color: rgb(87, 255, 36);
+  font-family: New Roman;
+  font-size: 15.1px;
+}
+.gameData{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.left {
+  width:40%;
+
+}
+.right {
+  width: 40%;
+}
+.main {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+hr{
+  background: red;
+  width: 80%;
+}
+.game{
+  text-align: center;
+}
+.game h3{
+  color: rgb(83, 214, 247);
+  font-family: verdana;
+  font-size: 18px;
+  font-weight: normal;
+}
+.game h3 span{
+  color: rgb(226, 38, 38);
+}
+.game input{
+  outline: none;
+}
+.game input[type="number"]{
+  height: 37px;
+  padding-left: 12px;
+  color: blue;
+  border-radius: 4.5px;
+  font-size: 0.99ric;
+  border: none;
+}
+.game input[type="submit"]{
+  border: none;
+  height: 43px;
+  background: linear-gradient(to top right,rgb(9, 107, 107), rgb(32, 210, 255));
+  border-radius: 5px;
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  font-weight: bold;
+}
+.game input[type="submit"]:hover{
+  background: linear-gradient(to bottom left,rgb(9, 107, 107), rgb(32, 210, 255));
+}
+.game input[type="submit"]:active{
+  background: linear-gradient(to bottom right,rgb(9, 107, 107), rgb(32, 210, 255));
+}
+footer{
+ position: absolute;
+ bottom: 0;
+}
+#post{
+  text-align: center;
+  font-family: verdana;
+  font-size: 36px;
+  color: green;
+}
+.game h3::first-letter{
+  font-family: verdana;
+  font-size: 25px;
+}
+quest sp{
+  font-size: 20.5px;
+  color: rgb(83, 214, 247);
+}
+#position{
+  animation: myAnim 1s linear alternate infinite;
+}
+@keyframes myAnim {
+  from {
+  transform: scale(1.4);
+}
+}
